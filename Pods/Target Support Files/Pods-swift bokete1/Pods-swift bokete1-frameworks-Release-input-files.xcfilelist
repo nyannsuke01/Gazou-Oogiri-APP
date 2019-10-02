@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-swift bokete1/Pods-swift bokete1-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

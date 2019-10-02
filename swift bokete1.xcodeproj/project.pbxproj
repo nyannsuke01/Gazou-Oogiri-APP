@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC5DCDB233903570002869C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5DCDA233903570002869C /* AppDelegate.swift */; };
+		CEC5DCDD233903570002869C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5DCDC233903570002869C /* ViewController.swift */; };
+		CEC5DCE0233903570002869C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5DCDE233903570002869C /* Main.storyboard */; };
+		CEC5DCE2233903590002869C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC5DCE1233903590002869C /* Assets.xcassets */; };
+		CEC5DCE5233903590002869C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC5DCE3233903590002869C /* LaunchScreen.storyboard */; };
+		CEC5DCF0233903590002869C /* swift_bokete1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5DCEF233903590002869C /* swift_bokete1Tests.swift */; };
+		CEC5DCFB233903590002869C /* swift_bokete1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5DCFA233903590002869C /* swift_bokete1UITests.swift */; };
+		CEC5DD0923443A770002869C /* shareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC5DD0823443A770002869C /* shareViewController.swift */; };
+		DE53E09D4B8E12D9B7F9A418 /* Pods_swift_bokete1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC980D1889F77BB9101B42B /* Pods_swift_bokete1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC5DCEC233903590002869C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC5DCCF233903570002869C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC5DCD6233903570002869C;
+			remoteInfo = "swift bokete1";
+		};
+		CEC5DCF7233903590002869C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC5DCCF233903570002869C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC5DCD6233903570002869C;
+			remoteInfo = "swift bokete1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE9DA8ABB9656451EDF8477 /* Pods-swift bokete1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift bokete1.debug.xcconfig"; path = "Target Support Files/Pods-swift bokete1/Pods-swift bokete1.debug.xcconfig"; sourceTree = "<group>"; };
+		2449B4BB00267975C688A9B6 /* Pods-swift bokete1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift bokete1.release.xcconfig"; path = "Target Support Files/Pods-swift bokete1/Pods-swift bokete1.release.xcconfig"; sourceTree = "<group>"; };
+		5BC980D1889F77BB9101B42B /* Pods_swift_bokete1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_bokete1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC5DCD7233903570002869C /* swift bokete1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift bokete1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC5DCDA233903570002869C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEC5DCDC233903570002869C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEC5DCDF233903570002869C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEC5DCE1233903590002869C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEC5DCE4233903590002869C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEC5DCE6233903590002869C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC5DCEB233903590002869C /* swift bokete1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift bokete1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC5DCEF233903590002869C /* swift_bokete1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_bokete1Tests.swift; sourceTree = "<group>"; };
+		CEC5DCF1233903590002869C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC5DCF6233903590002869C /* swift bokete1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift bokete1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC5DCFA233903590002869C /* swift_bokete1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_bokete1UITests.swift; sourceTree = "<group>"; };
+		CEC5DCFC233903590002869C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC5DD0823443A770002869C /* shareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shareViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC5DCD4233903570002869C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE53E09D4B8E12D9B7F9A418 /* Pods_swift_bokete1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC5DCE8233903590002869C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC5DCF3233903590002869C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFF587D2A178A27870D2E63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AE9DA8ABB9656451EDF8477 /* Pods-swift bokete1.debug.xcconfig */,
+				2449B4BB00267975C688A9B6 /* Pods-swift bokete1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A321938B2F9A94D21F78D2E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC980D1889F77BB9101B42B /* Pods_swift_bokete1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC5DCCE233903570002869C = {
+			isa = PBXGroup;
+			children = (
+				CEC5DCD9233903570002869C /* swift bokete1 */,
+				CEC5DCEE233903590002869C /* swift bokete1Tests */,
+				CEC5DCF9233903590002869C /* swift bokete1UITests */,
+				CEC5DCD8233903570002869C /* Products */,
+				7CFF587D2A178A27870D2E63 /* Pods */,
+				A321938B2F9A94D21F78D2E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC5DCD8233903570002869C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5DCD7233903570002869C /* swift bokete1.app */,
+				CEC5DCEB233903590002869C /* swift bokete1Tests.xctest */,
+				CEC5DCF6233903590002869C /* swift bokete1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC5DCD9233903570002869C /* swift bokete1 */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5DCDA233903570002869C /* AppDelegate.swift */,
+				CEC5DCDC233903570002869C /* ViewController.swift */,
+				CEC5DD0823443A770002869C /* shareViewController.swift */,
+				CEC5DCDE233903570002869C /* Main.storyboard */,
+				CEC5DCE1233903590002869C /* Assets.xcassets */,
+				CEC5DCE3233903590002869C /* LaunchScreen.storyboard */,
+				CEC5DCE6233903590002869C /* Info.plist */,
+			);
+			path = "swift bokete1";
+			sourceTree = "<group>";
+		};
+		CEC5DCEE233903590002869C /* swift bokete1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5DCEF233903590002869C /* swift_bokete1Tests.swift */,
+				CEC5DCF1233903590002869C /* Info.plist */,
+			);
+			path = "swift bokete1Tests";
+			sourceTree = "<group>";
+		};
+		CEC5DCF9233903590002869C /* swift bokete1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC5DCFA233903590002869C /* swift_bokete1UITests.swift */,
+				CEC5DCFC233903590002869C /* Info.plist */,
+			);
+			path = "swift bokete1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC5DCD6233903570002869C /* swift bokete1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC5DCFF233903590002869C /* Build configuration list for PBXNativeTarget "swift bokete1" */;
+			buildPhases = (
+				9AB7D15F324AFA75936E4651 /* [CP] Check Pods Manifest.lock */,
+				CEC5DCD3233903570002869C /* Sources */,
+				CEC5DCD4233903570002869C /* Frameworks */,
+				CEC5DCD5233903570002869C /* Resources */,
+				8FB4817470D749F50418B5EC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift bokete1";
+			productName = "swift bokete1";
+			productReference = CEC5DCD7233903570002869C /* swift bokete1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC5DCEA233903590002869C /* swift bokete1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC5DD02233903590002869C /* Build configuration list for PBXNativeTarget "swift bokete1Tests" */;
+			buildPhases = (
+				CEC5DCE7233903590002869C /* Sources */,
+				CEC5DCE8233903590002869C /* Frameworks */,
+				CEC5DCE9233903590002869C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC5DCED233903590002869C /* PBXTargetDependency */,
+			);
+			name = "swift bokete1Tests";
+			productName = "swift bokete1Tests";
+			productReference = CEC5DCEB233903590002869C /* swift bokete1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEC5DCF5233903590002869C /* swift bokete1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC5DD05233903590002869C /* Build configuration list for PBXNativeTarget "swift bokete1UITests" */;
+			buildPhases = (
+				CEC5DCF2233903590002869C /* Sources */,
+				CEC5DCF3233903590002869C /* Frameworks */,
+				CEC5DCF4233903590002869C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC5DCF8233903590002869C /* PBXTargetDependency */,
+			);
+			name = "swift bokete1UITests";
+			productName = "swift bokete1UITests";
+			productReference = CEC5DCF6233903590002869C /* swift bokete1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC5DCCF233903570002869C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CEC5DCD6233903570002869C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					CEC5DCEA233903590002869C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CEC5DCD6233903570002869C;
+					};
+					CEC5DCF5233903590002869C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = CEC5DCD6233903570002869C;
+					};
+				};
+			};
+			buildConfigurationList = CEC5DCD2233903570002869C /* Build configuration list for PBXProject "swift bokete1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC5DCCE233903570002869C;
+			productRefGroup = CEC5DCD8233903570002869C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC5DCD6233903570002869C /* swift bokete1 */,
+				CEC5DCEA233903590002869C /* swift bokete1Tests */,
+				CEC5DCF5233903590002869C /* swift bokete1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC5DCD5233903570002869C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC5DCE5233903590002869C /* LaunchScreen.storyboard in Resources */,
+				CEC5DCE2233903590002869C /* Assets.xcassets in Resources */,
+				CEC5DCE0233903570002869C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC5DCE9233903590002869C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC5DCF4233903590002869C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FB4817470D749F50418B5EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift bokete1/Pods-swift bokete1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift bokete1/Pods-swift bokete1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift bokete1/Pods-swift bokete1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB7D15F324AFA75936E4651 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift bokete1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC5DCD3233903570002869C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC5DCDD233903570002869C /* ViewController.swift in Sources */,
+				CEC5DCDB233903570002869C /* AppDelegate.swift in Sources */,
+				CEC5DD0923443A770002869C /* shareViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC5DCE7233903590002869C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC5DCF0233903590002869C /* swift_bokete1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC5DCF2233903590002869C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC5DCFB233903590002869C /* swift_bokete1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC5DCED233903590002869C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC5DCD6233903570002869C /* swift bokete1 */;
+			targetProxy = CEC5DCEC233903590002869C /* PBXContainerItemProxy */;
+		};
+		CEC5DCF8233903590002869C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC5DCD6233903570002869C /* swift bokete1 */;
+			targetProxy = CEC5DCF7233903590002869C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC5DCDE233903570002869C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC5DCDF233903570002869C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEC5DCE3233903590002869C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC5DCE4233903590002869C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC5DCFD233903590002869C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEC5DCFE233903590002869C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEC5DD00233903590002869C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AE9DA8ABB9656451EDF8477 /* Pods-swift bokete1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = "swift bokete1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.swift-bokete1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC5DD01233903590002869C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2449B4BB00267975C688A9B6 /* Pods-swift bokete1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = "swift bokete1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.swift-bokete1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEC5DD03233903590002869C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = "swift bokete1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.swift-bokete1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift bokete1.app/swift bokete1";
+			};
+			name = Debug;
+		};
+		CEC5DD04233903590002869C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = "swift bokete1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.swift-bokete1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift bokete1.app/swift bokete1";
+			};
+			name = Release;
+		};
+		CEC5DD06233903590002869C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = "swift bokete1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.swift-bokete1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift bokete1";
+			};
+			name = Debug;
+		};
+		CEC5DD07233903590002869C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KB84KZYV6;
+				INFOPLIST_FILE = "swift bokete1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "user-team.swift-bokete1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "swift bokete1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC5DCD2233903570002869C /* Build configuration list for PBXProject "swift bokete1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC5DCFD233903590002869C /* Debug */,
+				CEC5DCFE233903590002869C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC5DCFF233903590002869C /* Build configuration list for PBXNativeTarget "swift bokete1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC5DD00233903590002869C /* Debug */,
+				CEC5DD01233903590002869C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC5DD02233903590002869C /* Build configuration list for PBXNativeTarget "swift bokete1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC5DD03233903590002869C /* Debug */,
+				CEC5DD04233903590002869C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC5DD05233903590002869C /* Build configuration list for PBXNativeTarget "swift bokete1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC5DD06233903590002869C /* Debug */,
+				CEC5DD07233903590002869C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC5DCCF233903570002869C /* Project object */;
+}
