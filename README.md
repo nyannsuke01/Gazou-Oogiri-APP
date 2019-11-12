@@ -27,4 +27,4 @@ APIを用いて画像をリクエスト、JSON解析後表示します。
 *  UIkit
 *  Alamofire
 *  ImageSlideshow
-*　lottie-ios
+*  lottie-ios
