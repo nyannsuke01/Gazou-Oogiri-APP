@@ -1,6 +1,6 @@
 # READ ME
 
-１.アプリケーションの概要 画像大喜利アプリ
+１.アプリケーションの概要 
 
 APIを用いて画像をリクエスト、JSON解析後表示します。
 その後、画像にコメントを入れ、SNSで共有できる　画像大喜利アプリ
@@ -24,7 +24,7 @@ APIを用いて画像をリクエスト、JSON解析後表示します。
 
 4.ライブラリ
 
-*　UIkit
-*　Alamofire
-* ImageSlideshow
+*  UIkit
+*  Alamofire
+*  ImageSlideshow
 *　lottie-ios
