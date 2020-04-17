@@ -36,7 +36,7 @@ class ViewController: UIViewController {
     func getImage(keyword: String){
         
    //APIの定数宣言をする
-    let url = "https://pixabay.com/api/?key=13800917-57342c294923a57ec12dd4b46&q=\(keyword)"
+    let url = "https://pixabay.com/api/?key=&q=\(keyword)"
 
 //Alamofireを使ってhttpリクエストを投げます。
 
